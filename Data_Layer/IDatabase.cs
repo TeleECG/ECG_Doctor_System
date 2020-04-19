@@ -8,7 +8,6 @@ namespace Data_Layer
 {
     public interface IDatabase
     {
-        void Get_ECG(string CPRNumber, string Name, string Address, DateTime Date,
-            List<List<int>> ECG, int Pulse, int HRV);
+        void Get_ECG(string CPRNumber, string Name, string Address, DateTime Date, List<List<double>> ECG, int Pulse, int HRV);
     }
 }
